@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+*{
+    background-color: #e44332;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    text-align: left;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 100;
+    /*letter-spacing: 5px;*/
+    padding-left: 10px;
+}
+
+.horizontal_line{
+    border: 1px solid white;
+    background-color: white;
+    margin: auto;
+}
+
+.card{
+    background-color: white;
+    margin:100px auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    width: 500px;
+    height: auto;
+}
+
+.add_task_section{
+    background-color:#202020;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+
+#addtask_btn{
+    border-radius: 50px;
+    background-color: #e44332;
+    float: right;
+    margin: 20px 18px 0px 0px;
+    font-size: 15px;
+    border: 0px solid #202020;
+}
+
+
+.display_task{
+    background-color: #ffd669;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    width: 500px;
+    border: none; 
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.task_display_section{
+    background-color: white;
+    margin-left: 10px;
+    margin-right:10px;
+    border: none;
+    border-radius: 20px;
+    min-height: 50px;
+    text-align: left;
+    padding: 5px 10px 5px 20px;
+    font-size: 20px;
+}
+
+#task_box{
+    background-color: #202020;
+    color: white;
+    border:2px solid #202020;
+    border-bottom: 2px solid white;
+    margin: 20px 0px 10px 10px;
+    font-size: 20px;
+    opacity: 0.25;
+}
+
+#task_box::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+
+p{
+    background-color: white;
+    font-size: medium;
+}
+
+#new_task{
+    color: #202020;
+    font-size: 20px;
+    width: 280px;
+}
+#complete_btn{
+    background-color:#e43232;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+    width: 100px;
+}
+
+#task{
+    font-size: 20px;
+    background-color: white;
+    width: 50px;
+}
